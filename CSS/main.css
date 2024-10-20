@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding-top: 30px;
+    width: 80%;
+}
+input{
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 35px;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+}
+input::placeholder{
+    color: #aaaaaaaf;
+    font-size: 15px;
+}
+.container >div:nth-child(4){
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.container >div:nth-child(4) input{
+    width: 20%;
+}
+.container >div:nth-child(4) div{
+    background-color: rgba(255, 88, 88, 0.562);
+    padding: 8px;
+    border-radius: 10px;
+}
+.container button{
+    background-color: rgb(76, 0, 255);
+    color: white;
+    padding: 5px 15px;
+    border: 0;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    transition: .5s ease;
+}
+.container button:hover{
+    background-color: rgb(32, 0, 107);
+}
+.container>div:nth-child(9){
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.container>div:nth-child(9) button{
+    width: 50%;
+}
+table {
+    border-spacing: 0px;
+    width: 100%;
+}
+table th{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+table td{
+    padding: 10px;
+    border-bottom: solid 1px #000;
+    border-top: solid 1px #000;
+}
